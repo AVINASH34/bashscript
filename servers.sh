@@ -4,7 +4,7 @@ if [ ! -f "$1" ];
 then
     echo " GIVEN ITEM WAS A NOT A FILE "
 fi
-while read server;
+while read serverlist;
 do
-   ping -c1 "$server" && echo "serverup $server" 
+   ping -c1 "$serverlist" && echo "serverup $serverlist" 
 done
