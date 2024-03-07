@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ ! -f "$1"];
+if [ ! -f "$1" ];
 then
     echo " GIVEN ITEM WAS A NOT A FILE "
 fi
